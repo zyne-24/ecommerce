@@ -1,7 +1,14 @@
 {
-  "name": "Laravel Lunar Codespace",
+  "name": "Laravel Lunar Dev",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "composer install"
+  "postCreateCommand": "composer install",
+  "features": {},
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "bmewburn.vscode-intelephense-client"
+  ]
 }
