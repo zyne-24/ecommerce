@@ -4,11 +4,15 @@
     "dockerfile": "Dockerfile"
   },
   "postCreateCommand": "composer install",
-  "features": {},
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
-  "extensions": [
-    "bmewburn.vscode-intelephense-client"
-  ]
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
 }
