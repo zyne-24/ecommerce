@@ -1,0 +1,7 @@
+{
+  "name": "Laravel Lunar Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "composer install"
+}
